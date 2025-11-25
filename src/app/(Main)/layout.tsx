@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Source_Sans_3 as FontSans } from "next/font/google";
 import "./globals.css";
-import Header from "@/app/components/(COMMON)/header";
-import Footer from "@/app/components/(COMMON)/footer";
+import Footer from "@/app/components/common/footer";
 import { Component } from "@/app/components/ui/background-components";
 
 const fontSans = FontSans({
@@ -30,7 +29,7 @@ export default function RootLayout({
       >
 
         <Component >
-          <Header />
+          
           <main className="flex-1">{children}</main>
           <Footer />
         </Component>
