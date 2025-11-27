@@ -16,7 +16,7 @@ export const Component = ({ children, className }: ComponentProps) => {
         className="absolute inset-0 z-0"
         style={{
           backgroundImage: `
-        radial-gradient(circle at center, #FFF991 0%, transparent 70%)
+        radial-gradient(circle at center,hsl(212, 100%, 81%)  0%, transparent 70%)
       `,
           opacity: 0.6,
           mixBlendMode: "multiply",

@@ -7,10 +7,10 @@ import Navlink  from './nav-link'
 const Header = () => {
   const IsLoggedIn = false
   return (
-    <div>
+    <div className=''>
       <nav
-        className="fixed top-5 inset-x-0  before:backdrop-blur-md mx-auto max-w-4xl z-50  flex justify-between items-center rounded-full border border-white/20 bg-transparent dark:bg-neutral-900/50
-          backdrop-blur-md shadow-lg p-3"
+        className="fixed top-5 inset-x-0  before:backdrop-blur-md mx-auto max-w-4xl   flex justify-between items-center rounded-full border border-white/20 bg-transparent dark:bg-neutral-900/50
+          backdrop-blur-md shadow-lg p-1"
       >
         <div className="flex justify-between items-center">
           {/* ---START OF THE HOME PAGE LINK */}

@@ -4,7 +4,7 @@ import { Sparkles } from 'lucide-react'
 
 const herosection = () => {
   return (
-    <div className='flex flex-col gap-5 items-center justify-center h-screen'>
+    <div className='flex flex-col gap-5 items-center justify-center h-screen '>
         <div className='flex gap-2 items-center rounded-full bg-[#9bc9ff] shadow-xl border  p-3 animation-pulse pr-5   '>
             <Sparkles className='text-pink-500'/>
              <p>Powered by AI</p>
